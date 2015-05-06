@@ -1,11 +1,10 @@
-{
-  "name": "git",
+ "name": "prime_peer_nd_01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node public/assets/app.js"
   },
   "author": "Vince & Luke",
   "license": "ISC",
