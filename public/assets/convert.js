@@ -1,5 +1,7 @@
-//var convert = function(money) {
-//    return money.toFixed(2);
-//
-//};
-//
+var convert = function(total) {
+    console.log("Convert function");
+    return total.toFixed(2);
+};
+
+module.exports.convert = convert;
+

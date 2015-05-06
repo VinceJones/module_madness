@@ -1,4 +1,5 @@
- "name": "prime_peer_nd_01",
+{
+  "name": "prime_peer_nd_01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
