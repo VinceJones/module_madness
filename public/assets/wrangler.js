@@ -2,8 +2,11 @@ var thing = require('./convert');
 var randNum = require('./randNum');
 
 var value = function(){
-    console.log("Wrangler Value function");
-    return thing.convert( randNum );
+
+    var total = thing.convert( randNum );
+    var totalString = total.toString();
+    var string = "Account Balance: \n" + totalString;
+    return string;
 };
 
 module.exports.value = value;
